@@ -1,0 +1,215 @@
+@media screen and (max-width: 1010px) {
+    .site-size {
+        width: auto;
+        padding: 0 20px;
+    }
+    .service-title {
+        font: 20px/26px RobotoBlack;
+        padding: 18px 0;
+    }
+    .service-text {
+        padding: 0;
+    }
+    .main-menu-container {
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .main-menu > li + li {
+        margin-left: 10px;
+    }
+    .top-menu-logo {
+        margin-left: 20px;
+    }
+    .service > img {
+        max-width: 80%;
+    }
+    .top-menu {
+        padding-right: 10px;
+    }
+    .origin-text {
+        width: auto;
+        padding-top: 115px;
+    }
+    .origin-text-author {
+        padding-top: 25px;
+    }
+    .site-footer {
+        background-size: cover;
+        margin: -280px auto 0;
+        height: 280px;
+    }
+    .site-footer .site-size {
+        height: 280px;
+    }
+    .footer-logo-wrapper {
+        height: 190px;
+    }
+    .footer-text {
+        top: 90px;
+    }
+    .footer-logo {
+        top: 38px;
+    }
+    .site-container {
+        padding: 0 0 280px 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    /* Disable animation */
+    .move {
+        opacity: 1;
+    }
+    .move.end  {
+        -webkit-transition-property: none;
+        -moz-transition-property: none;
+        transition-property: none;
+        -webkit-transition-duration: 0s;
+        -moz-transition-duration: 0s;
+        transition-duration: 0s;
+        opacity: 1;
+    }
+    .move.from-left, .move.from-top, .move.from-bot, .move.from-min {
+        -webkit-transform: none;
+        -moz-transform: none;
+        transform: none;
+    }
+    /* End Disable animation */
+    .service {
+        padding: 20px 0;
+        width: 100%;
+        display: block;
+        float: none;
+        overflow: hidden;
+    }
+    .service + .service {
+        border-left: none;
+        border-top: solid 1px #bbb;
+    }
+    .service > img {
+        display: block;
+        float: left;
+        width: 25%;
+        padding: 0 0 0 4%;
+    }
+    .service-content {
+        display: block;
+        float: right;
+        width: 64%;
+        padding: 0 4% 0 0;
+    }
+    .footer-logo-wrapper {
+        height: auto !important;
+    }
+    .footer-text {
+        position: relative;
+        float: left;
+        top: 0;
+        width: calc(100% - 134px);
+        margin: 20px 0 0;
+        left: 0;
+        padding: 0;
+    }
+    .footer-text > span, .footer-text > span:last-child {
+        float: none;
+    }
+    .footer-text > span {
+        padding: 5px 0;
+    }
+    .footer-logo {
+        top: 0;
+        float: right;
+        margin: 20px 0 0;
+    }
+    .footer-socials {
+        clear: both;
+        padding: 20px 0 0;
+    }
+    .site-footer .site-size, .site-footer {
+        height: 230px;
+    }
+    .site-footer {
+        margin: -230px 0 0;
+    }
+    .site-container {
+        padding: 0 0 230px 0;
+    }
+    .screen-gray {
+        padding: 50px 0;
+    }
+    .title, .sub-title, .synopsis {
+        text-align: center;
+    }
+    .synopsis {
+        line-height: 24px;
+    }
+    .sub-title {
+        line-height: 28px;
+    }
+    .text {
+        padding: 20px 0 0;
+    }
+    .start-bg, .site-header {
+        display: none;
+    }
+    .top-menu-wrapper {
+        display: none;
+    }
+    .mob-menu-wrapper, .btn-mob-menu {
+        display: block;
+    }
+    .site-container.pt {
+        padding-top: 0;
+    }
+}
+@media screen and (max-width: 560px) {
+    .portfolio-item {
+        width: 100%;
+        display: block;
+        height: auto;
+        padding: 24px 0;
+    }
+    .portfolio-item-content {
+        padding-top: 0;
+    }
+    .portfolio-item-title {
+        max-height: none;
+    }
+}
+@media screen and (max-width: 420px) {
+    .footer-text {
+        display: none;
+    }
+    .footer-logo {
+        float: none;
+        margin: 0 auto;
+        padding-top: 20px;
+        background-position: bottom center;
+    }
+    .origin-text {
+        padding-top: 100px;
+    }
+    .service > img {
+        float: none;
+        margin: 0 auto;
+        padding: 0;
+        width: 50%;
+    }
+    .title {
+        line-height: 38px;
+    }
+    .service-content {
+        float: none;
+        width: auto;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .founders {
+        padding: 20px 0;
+    }
+    .founders > span, .founders > span:last-child {
+        float: none;
+        text-align: center;
+        font: 18px/24px RobotoLightItalic;
+    }
+}
